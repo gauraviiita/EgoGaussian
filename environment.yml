@@ -1,4 +1,4 @@
-name: gaussian_splatting
+name: ego-3dgs
 channels:
   - pytorch
   - conda-forge
