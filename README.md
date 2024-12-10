@@ -54,8 +54,13 @@ The full EgoGaussian pipelie consists of 4 main stages corresponding to differen
 
 You can use the following script to run a full EgoGaussian pipeline from scratch on the provided data.
 ```shell
-sbatch train.sh
+bash train.sh
 ```
+Or
+```
+CUDA_LAUNCH_BLOCKING=1 bash train.sh
+```
+
 
 ## Reproducing the results
 
