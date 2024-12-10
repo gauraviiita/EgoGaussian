@@ -34,8 +34,8 @@ git clone https://github.com/gauraviiita/EgoGaussian.git --recursive
 
 ## Initialization
 ```
-conda env create --file environment.yml
-conda activate gaussian_splatting
+$ conda env create --file environment.yml
+$ conda activate ego-3dgs
 ```
 
 
