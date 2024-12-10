@@ -28,8 +28,8 @@ The setup should be very similar to the original [3D Gaussian Splatting](https:/
 ## Cloning the repository
 
 ```
-# HTTPS
-git clone https://github.com/graphdeco-inria/gaussian-splatting --recursive
+
+git clone https://github.com/gauraviiita/EgoGaussian.git --recursive
 ```
 
 ## Initialization
