@@ -72,6 +72,21 @@ python eval.py \
     --run_name ${RUN_NAME} \
 ```
 
+## A common error: CUDA error: an illegal memory access was encountered:
+
+Solved by following these steps:
+
+Adding "-Xcompiler -fno-gnu-unique" option in submodules/diff-gaussian-rasterization/setup.py: line 29 resolves the illegal memory access error in training.
+
+```
+29 extra_compile_args={"nvcc": ["-Xcompiler", "-fno-gnu-unique","-I" + os.path.join(os.path.dirname(os.path.abspath(__file__)), "third_party/glm/")]})
+```
+After changing the code, reinstall the module by
+```
+pip uninstall diff-gaussian-rasterization -y && pip install submodules/diff-gaussian-rasterization
+```
+
+
 ## Acknowledgement
 Our implementation is heavily based on the original [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting). We thank the authors for their revolutionary work and open-source contributions. 
 
