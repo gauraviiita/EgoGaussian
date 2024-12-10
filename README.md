@@ -74,7 +74,7 @@ python eval.py \
 
 ## A common error: CUDA error: an illegal memory access was encountered:
 
-Solved by following these steps:
+Solved by following this step given to this [link](https://github.com/graphdeco-inria/gaussian-splatting/issues/41#issuecomment-1752279620):
 
 Adding "-Xcompiler -fno-gnu-unique" option in submodules/diff-gaussian-rasterization/setup.py: line 29 resolves the illegal memory access error in training.
 
