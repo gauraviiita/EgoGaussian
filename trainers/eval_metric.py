@@ -9,7 +9,7 @@ from PIL import Image
 from tqdm import tqdm
 import torchvision.transforms.functional as tf
 
-from lpipsPyTorch import lpips
+import lpips
 from scene import Scene, GaussianModel
 from utils.console import CONSOLE
 from utils.dynamic_utils import *
