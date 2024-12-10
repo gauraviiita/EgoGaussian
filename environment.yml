@@ -17,3 +17,8 @@ dependencies:
     - submodules/simple-knn
     - opencv-python
     - joblib
+    - rich
+    - wandb
+    - jinja2
+    - typeguard
+    - pytorch3d
