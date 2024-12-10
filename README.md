@@ -24,6 +24,23 @@
 ## 🛠️ Setup
 The setup should be very similar to the original [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting) except we used a modified version of [differential gaussian rasterization](https://github.com/ashawkey/diff-gaussian-rasterization/tree/8829d14f814fccdaf840b7b0f3021a616583c0a1) with support of depth & alpha rendering. We will release the `requirements.txt` later.
 
+
+## Cloning the repository
+
+```
+# HTTPS
+git clone https://github.com/graphdeco-inria/gaussian-splatting --recursive
+```
+
+## Initialization
+```
+conda env create --file environment.yml
+conda activate gaussian_splatting
+```
+
+
+
+
 ## Overview
 
 The full EgoGaussian pipelie consists of 4 main stages corresponding to different scripts under `trainers`
