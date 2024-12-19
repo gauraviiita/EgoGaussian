@@ -75,6 +75,17 @@ python eval.py \
     --data_type ${DATA_TYPE} \
     --video ${DATA_NAME} \
     --run_name ${RUN_NAME} \
+
+
+$ python eval.py --source_path /home/dr/Desktop/Gaurav/Research/BU/EgoGaussian/EgoGaussian-Data/HOI/Video3 --out_root /home/dr/Desktop/Gaurav/Research/BU/EgoGaussian/EgoGaussian-output --data_type HOI --video Video3 --run_name full
+or
+python eval.py \
+  --source_path /home/dr/Desktop/Gaurav/Research/BU/EgoGaussian/EgoGaussian-Data/HOI/Video3 \
+  --out_root /home/dr/Desktop/Gaurav/Research/BU/EgoGaussian/EgoGaussian-output \
+  --data_type HOI \
+  --video Video3 \
+  --run_name full
+
 ```
 
 ## A common error: CUDA error: an illegal memory access was encountered:
