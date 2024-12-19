@@ -92,6 +92,7 @@ pip uninstall diff-gaussian-rasterization -y && pip install submodules/diff-gaus
 ```
 
 
+
 ## Acknowledgement
 Our implementation is heavily based on the original [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting). We thank the authors for their revolutionary work and open-source contributions. 
 
