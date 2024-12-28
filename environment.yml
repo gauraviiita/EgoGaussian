@@ -12,14 +12,15 @@ dependencies:
   - torchaudio=0.12.1
   - torchvision=0.13.1
   - tqdm
+  - rich
+  - wandb
+  - jinja2
+  - typeguard
+  - pytorch3d
+  - lpips
   - pip:
     - submodules/diff-gaussian-rasterization
     - submodules/simple-knn
     - opencv-python
     - joblib
-    - rich
-    - wandb
-    - jinja2
-    - typeguard
-    - pytorch3d
-    - lpips
+    
