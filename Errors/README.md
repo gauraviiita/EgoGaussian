@@ -27,3 +27,4 @@ Traceback (most recent call last):
     from . import _C
 ImportError: /home/dr/anaconda3/envs/ego-3dgs/lib/python3.7/site-packages/diff_gaussian_rasterization/_C.cpython-37m-x86_64-linux-gnu.so: undefined symbol: _ZN3c106detail19maybe_wrap_dim_slowEllb
 ```
+
