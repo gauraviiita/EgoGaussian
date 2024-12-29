@@ -41,6 +41,8 @@ $ conda activate ego-3dgs
 
 
 
+
+
 ## Overview
 
 The full EgoGaussian pipelie consists of 4 main stages corresponding to different scripts under `trainers`
