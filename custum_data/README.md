@@ -9,3 +9,11 @@ pip install -U openmim
 cd mmsegmentation
 pip install -v -e .
 ```
+
+
+
+## Step 2: Resize the images and mask resolution to 512.
+
+```
+$ python resize.py 
+```
